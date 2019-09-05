@@ -1,0 +1,18 @@
+{
+    "protocol-version": "1.0",
+    "schema": "action",
+    "type": "response",
+    "body": {
+        "info": {
+            "subject": "movement-system",
+            "function": "left",
+            "control-type": "signal"
+        },
+        "data": {
+            "success": true,
+            "expired" : false,
+            "request-timestamp": "dd-mm-yy/hh:mm:ss"
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

@@ -1,0 +1,10 @@
+{
+    "protocol-version": "1.0",
+    "schema": "action/sensor/catalogue/error",
+    "type": "request/response",
+    "body": {
+        "info": {},
+        "data": {}
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

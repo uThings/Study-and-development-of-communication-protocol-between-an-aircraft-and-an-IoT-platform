@@ -1,0 +1,14 @@
+{
+    "protocol-version": "1.0",
+    "schema": "action",
+    "type": "",
+    "body": {
+        "info": {
+            "subject": "",
+            "function": "",
+            "control-type": ""
+        },
+        "data": {}
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

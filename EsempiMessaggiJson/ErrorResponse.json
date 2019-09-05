@@ -1,0 +1,14 @@
+{
+    "protocol-version": "1.0",
+    "schema": "error",
+    "type": "response",
+    "body": {
+        "info": {
+            "code": "e1234",
+            "error-type": "parsing",
+            "at": "/body/subject",
+            "what": "Required node: undefined"
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

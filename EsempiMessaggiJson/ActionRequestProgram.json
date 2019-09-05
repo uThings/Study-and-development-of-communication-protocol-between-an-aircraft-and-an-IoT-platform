@@ -1,0 +1,25 @@
+{
+    "protocol-version": "1.0",
+    "schema": "action",
+    "type": "request",
+    "body": {
+        "info": {
+            "subject": "surveillance",
+            "function": "patrol",
+            "control-type": "program"
+        },
+        "data": {
+            "program-id": 7,
+            "parameters": {
+                "path-code": "2A",
+                "duration": "3600",
+                "raise-alarm": "true"
+            },
+            "security": {
+                "expiration": 0,
+                "feedback": true
+            }
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

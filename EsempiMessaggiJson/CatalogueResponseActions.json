@@ -1,0 +1,51 @@
+{
+    "protocol-version": "1.0",
+    "schema": "catalogue",
+    "type": "response",
+    "body": {
+        "info": {
+            "type": "action"
+        },
+        "data": [
+            {
+                "subject": "movement-system",
+                "functions": [
+                    {
+                        "function": "forward",
+                        "signals": [
+                            "rect",
+                            "ramp"
+                        ],
+                        "programs": [
+                            {
+                                "id": 7,
+                                "parameters": {
+                                    "acceleration": "real",
+                                    "smooth": "bool"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "subject": "led",
+                "functions": [
+                    {
+                        "function": "blink",
+                        "signals": [],
+                        "programs": [
+                            {
+                                "id": 12,
+                                "parameters": {
+                                    "period": "real"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

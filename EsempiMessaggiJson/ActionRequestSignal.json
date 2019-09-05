@@ -1,0 +1,26 @@
+{
+    "protocol-version": "1.0",
+    "schema": "action",
+    "type": "request",
+    "body": {
+        "info": {
+            "subject": "movement-motor",
+            "function": "left",
+            "control-type": "signal"
+        },
+        "data": {
+            "signal-type": "Ramp",
+            "peak": 50,
+            "offset": 0.1,
+            "timing": {
+                "duration": 100e-3,
+                "delay": 1
+            },
+            "security": {
+                "expiration": 2,
+                "feedback": true
+            }
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

@@ -1,0 +1,36 @@
+{
+    "protocol-version": "1.0",
+    "schema": "catalogue",
+    "type": "response",
+    "body": {
+        "info": {
+            "type": "sensor"
+        },
+        "data": [
+            {
+                "id": 7,
+                "type": "light sensor",
+                "name": "Light QWE",
+                "vendor": "ABCD",
+                "data": {
+                    "light": "real"
+                },
+                "max-frequency": 1e3
+            },
+            {
+                "id": 7,
+                "type": "mixed",
+                "name": "WeatherStation ABC",
+                "vendor": "ABCD",
+                "data": {
+                    "temperature": "real",
+                    "humidity%": "integer",
+                    "direct-sun": "bool",
+                    "weather": "string"
+                },
+                "max-frequency": 5e-1
+            }
+        ]
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

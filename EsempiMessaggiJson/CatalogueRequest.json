@@ -1,0 +1,11 @@
+{
+    "protocol-version": "1.0",
+    "schema": "catalogue",
+    "type": "request",
+    "body": {
+        "info": {
+            "type": "sensor"
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}

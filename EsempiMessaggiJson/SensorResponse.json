@@ -1,0 +1,25 @@
+{
+    "protocol-version": "1.0",
+    "schema": "sensor",
+    "type": "response",
+    "body": {
+        "info": {
+            "sensor-id": 77,
+            "samples": 3,
+            "frequency": 1e-3
+        },
+        "data": {
+            "temperature": [
+                "37",
+                "77.25",
+                "37.5"
+            ],
+            "humidity": [
+                "60%",
+                "61%",
+                "62%"
+            ]
+        }
+    },
+    "timestamp": "dd-mm-yyyy/hh:mm:ss"
+}
